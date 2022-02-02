@@ -7,5 +7,5 @@ def base():
     return "API works"
 
 @app.route("/icecream", methods=["POST", "GET"])
-def icecream():
-    return "chocolate"
+def icecream(event_id):
+    return "chocolate icecream is superior"
